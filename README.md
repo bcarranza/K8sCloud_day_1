@@ -63,24 +63,19 @@ https://learn.hashicorp.com/tutorials/terraform/digitalocean-provider?in=terrafo
     ```
         export TF_VAR_digitalocean_token='dop_v1_xxxxxxxxxxxxxxxxx'
     ``` 
-3. Pegar la SSH generada en el archivo terramino_app.yaml para habilitar el droplet para conexión.
-    ```
-        ssh_authorized_keys:
-      - # Paste your created SSH key here
-    ```
-4. Ejectuar `terraform init` prepara el directorio de trabajo para que Terraform pueda ejecutar la configuración.
-5. Ejecutar `terraform plan` le permite obtener una vista previa de los cambios antes de aplicarlos.
-6. Ejecutar `terraform apply` realiza los cambios definidos por su configuración de Terraform para crear, actualizar o destruir recursos.
+3. Ejectuar `terraform init` prepara el directorio de trabajo para que Terraform pueda ejecutar la configuración.
+4. Ejecutar `terraform plan` le permite obtener una vista previa de los cambios antes de aplicarlos.
+5. Ejecutar `terraform apply` realiza los cambios definidos por su configuración de Terraform para crear, actualizar o destruir recursos.
 
-7. Conectarse por medio de ssh para revisar la instalación
+6. Conectarse por medio de ssh para revisar la instalación
    ```
    cd ..
    ssh -i ./ssh-key.pub root@ip
    ```
-8. Vamos a jugar http://ip
+7. Vamos a jugar http://ip
    
    <img src="./img/game.png"  width="250" height="250">
 
-9.  No olvides destruir tus recursos ⚠️ ejecutando `terraform destroy` o tu dinero se irá volando 💸💸💸💸💸 😂😂
+8.  No olvides destruir tus recursos ⚠️ ejecutando `terraform destroy` o tu dinero se irá volando 💸💸💸💸💸 😂😂
 
 👨‍💻🤘 Bayron Carranza
