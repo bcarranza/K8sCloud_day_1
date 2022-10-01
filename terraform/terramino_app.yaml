@@ -16,7 +16,7 @@ users:
 runcmd:
   - sudo apt-get update
   - sudo apt install apache2 -q -y
-  - sudo curl https://raw.githubusercontent.com/hashicorp/learn-terraform-digitalocean-droplet/main/app/index.php -O
+  - sudo curl https://raw.githubusercontent.com/bcarranza/K8sCloud_day_1/main/app/index.php -O
   - sudo rm /var/www/html/index.html
   - sudo mv index.php /var/www/html
   - sudo systemctl restart apache2
