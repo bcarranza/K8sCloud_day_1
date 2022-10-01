@@ -76,6 +76,10 @@ https://learn.hashicorp.com/tutorials/terraform/digitalocean-provider?in=terrafo
    cd ..
    ssh -i ./ssh-key.pub root@ip
    ```
-8. No olvides destruir tus recursos ⚠️ ejecutando `terraform destroy` o tu dinero se irá volando 💸💸💸💸💸 😂😂
+8. Vamos a jugar http://ip
+   
+   <img src="./img/game.png"  width="250" height="250">
+
+9.  No olvides destruir tus recursos ⚠️ ejecutando `terraform destroy` o tu dinero se irá volando 💸💸💸💸💸 😂😂
 
 👨‍💻🤘 Bayron Carranza
