@@ -1,5 +1,6 @@
 # WORKSHOP 🤖
 # CREA UN LABORATORIO DE K8S EN LA NUBE ☁️
+# DÍA # 1
 
 ## Slides 👨‍🏫
 https://docs.google.com/presentation/d/1nMUGhujrUq_67x_i03dTewFhm6-l5UwFHbKtC2Rchw4/edit?usp=sharing    
