@@ -42,8 +42,8 @@ de terraform.
     ```
     $ docker run -it --rm -v $(pwd):/kind-mesh -w /kind-mesh --entrypoint sh hashicorp/terraform
 
-    /kind-mesh # cd terraform
     /kind-mesh/terraform # ssh-add ssh-key
+    /kind-mesh # cd terraform
     ```
 
     Por si acaso el ultimo comando de agregar la llave falla, te recomendamos ejecutar la siguiente acción
