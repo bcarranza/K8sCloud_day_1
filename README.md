@@ -35,20 +35,15 @@ de terraform.
 - #### Create SSH Key
 
     ```bash
-    $ ssh-keygen -t ed25519 -C "kind-mesh@digitalocean.com" -q -N '' -f ssh-key
+    $ ssh-keygen -t ed25519 -C "myssh_demo3pillar@digitalocean.com" -q -N '' -f ssh-key
     ```
 
 - #### Inicializar terraform
     ```
-    $ docker run -it --rm -v $(pwd):/kind-mesh -w /kind-mesh --entrypoint sh hashicorp/terraform
-
-    /kind-mesh/terraform # ssh-add ssh-key
-    /kind-mesh # cd terraform
-    ```
-
-    Por si acaso el ultimo comando de agregar la llave falla, te recomendamos ejecutar la siguiente acción
-    ```
-        eval `ssh-agent -s`
+    $ docker run -it --rm -v $(pwd):/dev-container -w /dev-container --entrypoint sh hashicorp/terraform
+    $ eval `ssh-agent -s`
+    $ ssh-add ssh-key
+    $ cd terraform
     ```
 
 ## Lab 🧪

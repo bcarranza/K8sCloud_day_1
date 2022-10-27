@@ -1,4 +1,5 @@
 #cloud-config
+#docs : https://www.digitalocean.com/community/tutorials/how-to-use-cloud-config-for-your-initial-server-setup
 groups:
   - ubuntu: [root,sys]
   - hashicorp
