@@ -3,7 +3,7 @@
 # DÍA # 1
 
 ## Slides 👨‍🏫
-https://docs.google.com/presentation/d/1nMUGhujrUq_67x_i03dTewFhm6-l5UwFHbKtC2Rchw4/edit?usp=sharing    
+https://docs.google.com/presentation/d/1Y8XvZosWa5tUUv89aCP-cakdDv0U1JtiPMVvuRlahkw/edit?usp=sharing    
 
 ## Prerequisitos 🤔
 
